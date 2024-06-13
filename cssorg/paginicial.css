@@ -1,0 +1,327 @@
+.mae-do-meio{
+    display: flex;
+    gap: 6rem;
+    justify-content: center;
+    /*flex-wrap: wrap; /* Permite que os itens se organizem em várias linhas, se necessário 
+    padding: 1rem;*/
+  }
+  
+  .logo {
+    width: 20rem; /* Ajuste a largura conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block;
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+  }
+  
+  
+  .custom-bg {
+    background-color: #050c05; /* Cor de fundo desejada */
+    color: #8276c1;
+  }
+  
+  /* Estilo para os cards */
+  .card {
+    width: 18rem;
+    margin: 1rem; /* Adiciona espaçamento ao redor dos cards */
+  }
+  
+  /* Para telas menores que 768px */
+  @media (max-width: 768px) {
+    .mae-do-meio {
+      flex-direction: column;
+      align-items: center; /* Centraliza os itens em uma coluna */
+    }
+  
+    .card {
+      width: 100%; /* Faz os cards ocuparem toda a largura disponível */
+      max-width: 20rem; /* Define uma largura máxima */
+    }
+  }
+  
+  /* Para telas menores que 480px */
+  @media (max-width: 480px) {
+    .card {
+      width: 100%; /* Faz os cards ocuparem toda a largura disponível */
+      max-width: 18rem; /* Define uma largura máxima */
+    }
+  
+    .card img {
+      width: 100%; /* Faz a imagem ocupar toda a largura do card */
+      height: auto; /* Mantém a proporção da imagem */
+    }
+  }
+  
+  .card{
+    border-radius: 1rem;
+    border-color: blue;
+    transition: transform 0.3s ease; /* Suaviza a transição */
+    background-color: #e1e1e5;
+    margin: 1rem;
+  }
+  
+  .card:active {
+    transform: scale(1.1); /* Aumenta o tamanho do card em 10% */
+  }
+  
+  .card:hover{
+    transform: translateY(-5px); /* Move o card ligeiramente para cima ao passar o mouse */
+  }
+  
+  
+  
+  .custom-carousel {
+      max-width: 100%; /* Define a largura desejada */
+      max-height: 400px; /* Define a altura desejada */
+      margin: auto; /* Centraliza o carrossel na página */
+    }
+  
+    .custom-carousel .carousel-inner {
+      max-height: 400px; /* Garante que a altura do conteúdo interno do carrossel não ultrapasse a altura desejada */
+    }
+  
+    .custom-carousel .carousel-item {
+      max-height: 400px; /* Define a altura máxima das itens do carrossel */
+    }
+  
+  .custom-carousel .carousel-item video {
+    width: 100%;
+    height: auto;
+    object-fit: contain; /* Ajusta o vídeo para caber dentro do contêiner */
+  }
+  
+    .custom-carousel .carousel-item img {
+      width: 100%; /* Ajusta a largura das imagens para ocupar 100% do contêiner */
+      height: auto; /* Ajusta a altura das imagens automaticamente */
+      max-height: 400px; /* Ajusta a altura máxima das imagens */
+      object-fit: cover; /* Ajusta o encaixe da imagem dentro do contêiner */
+    }
+  
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
+      background-repeat: no-repeat; /* Evita repetição da imagem */
+      background-position: center center; /* Centraliza a imagem */
+      background-attachment: fixed; /* Faz com que a imagem de fundo fique fixa ao rolar a página */
+      background-color: #544d99;
+    }
+  
+    .container {
+      max-width: 65rem;
+      margin: 50px auto;
+      padding: 0 20px;
+      background-color: #867ec9;
+      border-radius: 10px;
+    }
+  
+    h1 {
+      text-align: center;
+      font-size: 2.5em;
+      color: #333;
+      margin-bottom: 20px;
+      font-family: 'Roboto';
+    }
+  
+    p {
+      font-size: 1.1em;
+      line-height: 1.6;
+      color: #4d4c4c;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+  
+    p:last-child {
+      margin-bottom: 0;
+    }
+  
+    .button-container{
+      display: flex; 
+      justify-content: center; /* centraliza o botao horizontalmente dentro do container */
+    }
+  
+    .produtos__botao{
+      background-color: #1E90FF;
+      color: #e4e2e2;
+      border-radius: 5px;
+      border-color: transparent;
+      font-weight: bold;
+      text-align: center;
+    }
+  
+    .btnprod{
+      color: white;
+      border-bottom: #3347ff;
+      border-radius: 1rem;
+    }
+  
+  
+  
+    .produtos__botao:hover{
+      background-color: #7a7a7a;
+  
+    }
+  
+  
+    .footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+  
+    .footer-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+  
+    .footer-nav, .footer-contact, .footer-social {
+      flex: 1;
+      margin: 10px;
+      min-width: 200px;
+    }
+  
+    .footer-nav h3, .footer-contact h3, .footer-social h3 {
+      border-bottom: 2px solid #cc1f1f;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+    }
+  
+    .footer-nav ul {
+      list-style: none;
+      padding: 0;
+    }
+  
+    .footer-nav ul li {
+      margin: 5px 0;
+    }
+  
+    .footer-nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+  
+    .footer-nav ul li a:hover {
+      color: #cc1f1f;
+    }
+  
+    .footer-contact p {
+      margin: 5px 0;
+    }
+  
+    .footer-social a {
+      display: inline-block;
+      margin: 0 10px;
+    }
+  
+    .footer-social img {
+      width: 30px;
+      height: 30px;
+      transition: transform 0.3s;
+    }
+  
+    .footer-social img:hover {
+      transform: scale(1.1);
+    }
+  
+    .footer-bottom {
+      margin-top: 20px;
+      border-top: 1px solid #e9e2e2;
+      padding-top: 10px;
+    }
+  
+    .cor{
+      color: rgb(245, 235, 235);
+    }
+  
+  
+    .brand-text {
+      font-family: 'Roboto', sans-serif; /* Escolha uma fonte bonita */
+      font-size: 24px; /* Ajuste o tamanho da fonte conforme necessário */
+      color: #2c2cb3; /* Escolha uma cor que se destaque */
+      text-transform: uppercase; /* Transforma o texto em maiúsculas */
+      letter-spacing: 2px; /* Espaçamento entre as letras */
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra suave */
+      font-weight: bold; /* Adiciona negrito */
+    }
+  
+    .brand-text_a{
+      font-family: 'Roboto';
+      color: #c1c2cc;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  
+  .brand-text_aa{
+    font-family: 'Roboto';
+    color: #0c0f18;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+    .card-img-top {
+      width: 100%; /* Define uma largura específica */
+      height: 9rem; /* Define uma altura específica */
+      object-fit: cover; /* Mantém a imagem centralizada e cobre todo o espaço disponível */
+    }
+  
+    .card {
+      width: 100%; /* Ajusta a largura do card para 100% da coluna */
+      height: 400px; /* Define uma altura fixa para todos os cards */
+      display: flex;
+      flex-direction: column; /* Mantém os filhos em coluna */
+      justify-content: space-between; /* Distribui o espaço entre os filhos */
+    }
+  
+    .card-img-top {
+      max-width: 100%; /* Ajusta a largura da imagem para 100% da largura do card */
+      max-height: 200px; /* Define uma altura máxima para a imagem */
+      object-fit: cover; /* Mantém a proporção da imagem e cobre todo o espaço disponível */
+    }
+  
+    .card-body {
+      display: flex;
+      flex-direction: column; /* Mantém os filhos em coluna */
+      justify-content: space-between; /* Distribui o espaço entre os filhos */
+    }
+  
+    .card-title, .card-text {
+      margin: 0; /* Remove a margem padrão */
+      font-weight:bolder;
+    }
+  
+    .card-text {
+      flex-grow: 1; /* Faz com que a descrição ocupe o espaço disponível */
+    }
+  
+    .add-to-cart {
+      align-self: center; /* Centraliza o botão horizontalmente */
+      margin-top: 10px; /* Adiciona uma margem superior para espaçamento */
+    }
+  
+  .banner-video {
+    width: 100%;
+    height: auto;
+    max-height: none;
+  }
+  .banner-container {
+    position: relative;
+    width: 100%;
+    height: 20rem;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+  }
+  .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Background with transparency */
+    padding: 20px;
+    border-radius: 10px;
+  }

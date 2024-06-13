@@ -1,0 +1,254 @@
+h2 {
+    color: #333; /* Cor do texto */
+    font-size: 2rem; /* Tamanho da fonte */
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+    border-bottom: 2px solid #ccc; /* Adiciona uma borda inferior */
+    padding-bottom: 10px; /* Espaçamento entre o texto e a borda inferior */
+    margin-top: 50px; /* Espaçamento superior */
+    margin-bottom: 30px; /* Espaçamento inferior */
+  }
+  
+  .custom-carousel {
+    max-width: 100%; /* Define a largura desejada */
+    max-height: 400px; /* Define a altura desejada */
+    margin: auto; /* Centraliza o carrossel na página */
+  }
+  
+  .custom-carousel .carousel-inner {
+    max-height: 400px; /* Garante que a altura do conteúdo interno do carrossel não ultrapasse a altura desejada */
+  }
+  
+  .custom-carousel .carousel-item {
+    max-height: 400px; /* Define a altura máxima das itens do carrossel */
+  }
+  
+  .custom-carousel .carousel-item img {
+    width: 100%; /* Ajusta a largura das imagens para ocupar 100% do contêiner */
+    height: auto; /* Ajusta a altura das imagens automaticamente */
+    max-height: 400px; /* Ajusta a altura máxima das imagens */
+    object-fit: cover; /* Ajusta o encaixe da imagem dentro do contêiner */
+  }
+  
+  .container{
+  max-width: 65rem;
+  margin: 50px auto;
+  padding: 0 20px;
+  background-color: #595186;
+  border-radius: 10px;
+  gap: 10px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+    border: 1px solid #6067aa; /* Adiciona uma borda */
+  
+  }
+  
+  .secaocard {
+    height: 28rem;
+  }
+  
+  .banner-container {
+    position: relative;
+    width: 80%;
+    overflow: hidden;
+     padding-top: 56.25%;  16:9 Aspect Ratio (divide 9 by 16 = 0.5625)
+  }
+  .banner-video {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+  }
+  
+  
+  .card {
+    background-color: #f9f9f9; /* Define um fundo cinza claro */
+  }
+  
+  
+  .card-title {
+    font-family: "Arial", sans-serif;
+    font-size: 1.25rem; /* Tamanho do título */
+  }
+  
+  .card-text {
+    font-size: 1rem; /* Tamanho do texto */
+  }
+  
+  
+  .card {
+    border-radius: 10px; /* Adiciona cantos arredondados */
+  }
+  .card:hover {
+    transform: translateY(-5px); /* Move o card ligeiramente para cima ao passar o mouse */
+    transition: transform 0.3s ease; /* Adiciona uma transição suave */
+  }
+  
+  p{
+   font-weight: bold;
+  }
+  
+  .brand-text {
+  font-family: 'Roboto', sans-serif; /* Escolha uma fonte bonita */
+  font-size: 24px; /* Ajuste o tamanho da fonte conforme necessário */
+  color: #3347ff; /* Escolha uma cor que se destaque */
+  text-transform: uppercase; /* Transforma o texto em maiúsculas */
+  letter-spacing: 2px; /* Espaçamento entre as letras */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra suave */
+  font-weight: bold; /* Adiciona negrito */
+  }
+  
+  .brand-text_a{
+  font-family: 'Roboto';
+  color: #d7d8db;
+  font-size: 18px;
+  font-weight: bold;
+  }
+  
+  .brand-text_aa{
+    font-family: 'Roboto';
+    color: #0c0f18;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .dropdown-item{
+  font-family: 'Roboto';
+  font-weight: bold;
+  }
+  
+  .card-title{
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Roboto';
+  }
+  
+  .card-text{
+  font-weight: bold;
+  }
+  
+  body{
+    background-color: #bbb9d4;
+  }
+  
+  .navbar col-12 m-auto position-fixed navbar-expand-lg bg-body-tertiary{
+    background-color: rgb(115, 105, 204);;
+  }
+  
+  .footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  }
+  
+  .footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+  }
+  
+  .footer-nav, .footer-contact, .footer-social {
+  flex: 1;
+  margin: 10px;
+  min-width: 200px;
+  }
+  
+  .footer-nav h3, .footer-contact h3, .footer-social h3 {
+  border-bottom: 2px solid #cc1f1f;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  }
+  
+  .footer-nav ul {
+  list-style: none;
+  padding: 0;
+  }
+  
+  .footer-nav ul li {
+  margin: 5px 0;
+  }
+  
+  .footer-nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+  }
+  
+  .footer-nav ul li a:hover {
+  color: #cc1f1f;
+  }
+  
+  .footer-contact p {
+  margin: 5px 0;
+  }
+  
+  .footer-social a {
+  display: inline-block;
+  margin: 0 10px;
+  }
+  
+  .footer-social img {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s;
+  }
+  
+  .footer-social img:hover {
+  transform: scale(1.1);
+  }
+  
+  .footer-bottom {
+  margin-top: 20px;
+  border-top: 1px solid #e9e2e2;
+  padding-top: 10px;
+  }
+  
+  .cor{
+  color: white;
+  }
+  
+  .card-img-top {
+  width: 200px; /* Define uma largura específica */
+  height: 150px; /* Define uma altura específica */
+  object-fit: cover; /* Mantém a imagem centralizada e cobre todo o espaço disponível */
+  }
+  
+  .card {
+  width: 100%; /* Ajusta a largura do card para 100% da coluna */
+  height: 400px; /* Define uma altura fixa para todos os cards */
+  display: flex;
+  flex-direction: column; /* Mantém os filhos em coluna */
+  justify-content: space-between; /* Distribui o espaço entre os filhos */
+  }
+  
+  .card-img-top {
+  max-width: 100%; /* Ajusta a largura da imagem para 100% da largura do card */
+  max-height: 200px; /* Define uma altura máxima para a imagem */
+  object-fit: cover; /* Mantém a proporção da imagem e cobre todo o espaço disponível */
+  }
+  
+  .card-body {
+  display: flex;
+  flex-direction: column; /* Mantém os filhos em coluna */
+  justify-content: space-between; /* Distribui o espaço entre os filhos */
+  }
+  
+  .card-title, .card-text {
+  margin: 0; /* Remove a margem padrão */
+  }
+  
+  .card-text {
+  flex-grow: 1; /* Faz com que a descrição ocupe o espaço disponível */
+  }
+  
+  .add-to-cart {
+  align-self: center; /* Centraliza o botão horizontalmente */
+  margin-top: 10px; /* Adiciona uma margem superior para espaçamento */
+  }

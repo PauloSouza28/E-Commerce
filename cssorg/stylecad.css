@@ -1,0 +1,105 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body{
+    background: #e7e3df;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container{
+    background-color: #9c9c8c;
+    color: #000000;/* cor dentro do formulario*/
+    border-radius: 14px;
+    margin: 14px;
+    max-width: 600px;
+    width: 100%;
+    box-sizing: 0 3px 5px rgba(0,0,0, 0.5);
+    overflow: hidden;
+    font-weight: bold;
+  }
+  
+  .header{
+    background: linear-gradient(120deg, #778899 0%, #4b6986 100%);
+    padding: 24px;
+    text-align: center;
+    color: #000000;
+  }
+
+  .Cadastro {
+    font-family: Arial, Helvetica, sans-serif;
+    /*display: block;*/
+    width: 15%;
+    /* Defina a largura desejada para o formulário */
+    margin: 0 auto;
+    /* Isso centraliza a div horizontalmente */
+    padding: 20px;
+    /* Espaçamento interno */
+    border: 50px #fff;
+    /* Borda para visualização */
+    border-radius: 5px;
+    /* Cantos arredondados */
+    color: rgb(141, 42, 59);
+    background-color: #9c9c8c;
+    font-size: 1.25rem;
+}
+  
+  .form{
+    padding: 18px;
+  }
+  
+  .form-content{
+    margin-bottom: 8px;
+    padding-bottom: 18px;
+    position: relative;
+  }
+  
+  .form-content label{
+    display: inline-block;
+    margin-bottom: 4px;
+  }
+  
+  .form-content input{
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    padding: 8px;
+    border: 2px solid #dfdfdf;
+  }
+  
+  .form-content a{
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    visibility: hidden;
+  }
+  
+  .form button{
+    background-color: #778899;
+    color: #000000;
+    width: 100%;
+    border-radius: 14px;
+    padding: 10px;
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 14px;
+    font-weight: bold;
+  }
+  
+  .form-content.error input{
+    border-color: #ff3b25;
+  }
+  
+  .form-content.error a{
+    color: #ff3b25;
+    visibility: visible;
+  }

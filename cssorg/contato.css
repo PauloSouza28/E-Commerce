@@ -1,0 +1,313 @@
+/*body{
+    background-color: bisque;
+}
+
+.cabecalho{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+header{
+    font-family: Arial;
+    color: #cc1f1f;
+    height: 80px;
+    display: block;
+    text-align: center;
+    text-decoration: overline;
+    text-transform: uppercase;
+    border: 1px solid rgba(15, 0, 0, 0.185);
+    /* Borda para visualização 
+    border-radius: 10px;
+    /* Cantos arredondados 
+    border-color: #cc1f1f;
+    margin: 0;
+  }
+
+  ul li a {
+    background-color: #cc1f1f;
+    /* Cor de fundo 
+    border: none;
+    /* Sem borda 
+    color: black;
+    /* Cor do texto 
+    padding: 15px 32px;
+    /* Espaçamento interno 
+    text-align: center;
+    /* Alinhamento do texto 
+    text-decoration: none;
+    /* Sem decoração de texto 
+    display: block;
+    /* Exibir como bloco 
+    font-size: 25px;
+    /* Tamanho da fonte 
+    margin: 4px 2px;
+    /* Margem 
+    cursor: pointer;
+    Cursor ao passar 
+    border-radius: 8px;
+     Borda arredondada 
+    margin-bottom: 10px;
+    width: 100px;
+    font-weight: bold;
+}*/
+
+.secao1{
+    width: 300px;
+    float: left;
+    transition: transform 0.5s;
+    background-image: linear-gradient(#f2f2f2, #e6e6e6);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .secao3-texto{
+    border-color: #cc1f1f;
+  
+  }
+  
+  .container-mae{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: grow;
+  }
+  
+  @media (max-width: 768px) {
+    .container-mae {
+      flex-direction: column;
+      align-items: center; /* Centraliza os itens em uma coluna */
+      gap: 1rem;
+    }
+  }
+  
+  
+  .container{
+    border: 10px;
+    border-color: #cc1f1f;
+    border-radius: 10px;
+    background-color: rgb(190, 205, 50);
+  }
+  
+  .secao1:hover{
+    transform: rotate(2deg);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+    h1 {
+      color: #333;
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+  
+    h2 {
+      color: #666;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+  
+    h3 {
+      color: #888;
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+  
+    .icones-sociais a {
+      display: inline-block;
+      margin: 10px;
+    }
+  
+    .icones-sociais img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      transition: transform 0.3s ease-in-out;
+    }
+  
+    .icones-sociais img:hover {
+      transform: scale(1.2);
+    }
+  
+  .custom-carousel {
+      max-width: 80%; /* Define a largura desejada */
+      max-height: 400px; /* Define a altura desejada */
+      margin: auto; /* Centraliza o carrossel na página */
+    }
+  
+    .custom-carousel .carousel-inner {
+      max-height: 400px; /* Garante que a altura do conteúdo interno do carrossel não ultrapasse a altura desejada */
+    }
+  
+    .custom-carousel .carousel-item {
+      max-height: 400px; /* Define a altura máxima das itens do carrossel */
+    }
+  
+    .custom-carousel .carousel-item img {
+      width: 100%; /* Ajusta a largura das imagens para ocupar 100% do contêiner */
+      height: auto; /* Ajusta a altura das imagens automaticamente */
+      max-height: 400px; /* Ajusta a altura máxima das imagens */
+      object-fit: cover; /* Ajusta o encaixe da imagem dentro do contêiner */
+    }
+  
+    body,html {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+  
+  
+    h1 {
+      text-align: center;
+      font-size: 2.5em;
+      color: #333;
+      margin-bottom: 20px;
+      font-family: 'Roboto';
+    }
+  
+    p {
+      font-size: 1.1em;
+      line-height: 1.6;
+      color: #4d4c4c;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+  
+    p:last-child {
+      margin-bottom: 0;
+    }
+  
+    .brand-text {
+      font-family: 'Roboto', sans-serif; /* Escolha uma fonte bonita */
+      font-size: 24px; /* Ajuste o tamanho da fonte conforme necessário */
+      color: #3347ff; /* Escolha uma cor que se destaque */
+      text-transform: uppercase; /* Transforma o texto em maiúsculas */
+      letter-spacing: 2px; /* Espaçamento entre as letras */
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra suave */
+      font-weight: bold; /* Adiciona negrito */
+    }
+  
+    .brand-text_a{
+      font-family: 'Roboto';
+      color: #292d4d;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  
+  .footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+  
+    .footer-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+  
+    .footer-nav, .footer-contact, .footer-social {
+      flex: 1;
+      margin: 10px;
+      min-width: 200px;
+    }
+  
+    .footer-nav h3, .footer-contact h3, .footer-social h3 {
+      border-bottom: 2px solid #cc1f1f;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+    }
+  
+    .footer-nav ul {
+      list-style: none;
+      padding: 0;
+    }
+  
+    .footer-nav ul li {
+      margin: 5px 0;
+    }
+  
+    .footer-nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+  
+    .footer-nav ul li a:hover {
+      color: #cc1f1f;
+    }
+  
+    .footer-contact p {
+      margin: 5px 0;
+    }
+  
+    .footer-social a {
+      display: inline-block;
+      margin: 0 10px;
+    }
+  
+    .footer-social img {
+      width: 30px;
+      height: 30px;
+      transition: transform 0.3s;
+    }
+  
+    .footer-social img:hover {
+      transform: scale(1.1);
+    }
+  
+    .footer-bottom {
+      margin-top: 20px;
+      border-top: 1px solid #e9e2e2;
+      padding-top: 10px;
+    }
+  
+    .footer__a{
+      font-weight: bold;
+    }
+  
+  .contato{
+      list-style-type: square;
+  }
+  
+  .cor{
+      color: white;;
+  }
+  
+  .popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 60px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  .popup-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
